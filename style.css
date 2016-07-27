@@ -1,0 +1,71 @@
+html, body {height:100%; padding:0; margin:0;}
+.scoreBox span {
+font-size:160px;}
+.scoreBox h1 {
+    font-size: 70px;
+    position: relative;
+    top: 50px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.scoreBox {
+    height:100%;
+
+}
+.scoreBox > div {
+    height:100%;
+    background-color:lightgray;
+}
+.scoreBox div div {
+    position: relative;
+    top:100px;
+    text-align:center;
+    font-family:  "Verdana", Geneva, sans-serif;
+    color: white;
+}
+#resetButton {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    left: calc(100% - 74px);
+    color: white;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+#resetButton span {
+    padding:20px;
+}
+#undoButton {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+#undoButton span {
+    padding:20px;
+}
+#switchButton {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    left: calc(50% - 57px);
+    color: white;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-weight: bold;
+}
+#switchButton span {
+    padding:20px;
+}
+.ui-icon-closethick,ui-dialog-titlebar-close {
+    display:none !important;
+}

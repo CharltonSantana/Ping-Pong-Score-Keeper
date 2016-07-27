@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong Score Keeper</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div style="width:50%; float:left;" class="scoreBox" id="player1">
+            <div>
+                <div><span id="score1">0</span><h1></h1></div>
+            </div>
+        </div>
+
+        <div style="width:50%; float:left;" class="scoreBox" id="player2">
+            <div>
+                <div><span id="score2">0</span><h1></h1></div>
+            </div>
+        </div>
+
+        <div id="resetButton"><span><i class="fa fa-refresh"></i><br>RESET</span></div>
+        <div id="undoButton"><span><i class="fa fa-undo"></i><br>UNDO</span></div>
+        <div id="switchButton"><span>SWITCH</span></div>
+        <div id="dialog-form1" title="Add Players">
+          <form>
+              <label for="name">Player 1</label>
+              <input type="text" name="name" id="player1name" value="" class="text ui-widget-content ui-corner-all">
+              <br><br>
+
+              <label for="name">Player 2</label>
+              <input type="text" name="name" id="player2name" value="" class="text ui-widget-content ui-corner-all">
+
+              <!-- Allow form submission with keyboard without duplicating the dialog button -->
+              <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+
+          </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+        <script src='script.js'></script>
+
+
+    </body>
+
+</html>
