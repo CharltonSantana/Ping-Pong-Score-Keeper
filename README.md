@@ -6,5 +6,6 @@ Run this on your work server, set up an iPad next the the table, input names and
 + Undo button
 + Lets you know who is serving
 + Turn the voleume up to hear voice output!
++ awesome
 
 Connection to DB with user accounts coming soon!
